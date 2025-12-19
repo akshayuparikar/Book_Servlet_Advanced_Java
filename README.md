@@ -5,20 +5,35 @@ A lightweight web application built using Java Servlets, JSP, and JDBC to regist
 📁 Project Structure
 # Code
 Book_Servlet_Advanced_Java/
+
 ├── src/
+
 │   └── com/example/book/
+
 │       ├── Book.java              # Model class representing a book
+
 │       ├── BookDAO.java           # DAO class for database operations
+
 │       ├── BookServlet.java       # Handles book registration logic
+
 │       └── ViewBookServlet.java   # Displays list of registered books
+
 ├── WebContent/
+
 │   ├── book.html                  # HTML form to register a book
+
 │   ├── error.html                 # Error page for failed operations
+
 │   ├── success.jsp                # Confirmation page after successful registration
+
 │   ├── viewBook.jsp               # JSP page to display all books
+
 │   └── WEB-INF/
+
 │       └── web.xml                # Deployment descriptor for servlet mapping
+
 ├── README.md                      # Project overview and setup instructions
+
 # 🚀 Setup Guide
 Prerequisites
 Java 8+
