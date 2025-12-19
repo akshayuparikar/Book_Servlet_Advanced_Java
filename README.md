@@ -8,7 +8,7 @@ Book_Servlet_Advanced_Java/
 
 ├── src/
 
-│   └── com/example/book/
+│   └── com/cdac
 
 │       ├── Book.java              # Model class representing a book
 
@@ -51,16 +51,16 @@ bash
 git clone https://github.com/akshayuparikar/Book_Servlet_Advanced_Java.git
 Configure database
 
-Create a database named bookdb
+Create a database named dacakshay
 
 Create a table:
 
 sql
 CREATE TABLE books (
   id INT PRIMARY KEY AUTO_INCREMENT,
-  title VARCHAR(255),
-  author VARCHAR(255),
-  price DOUBLE
+  BookName VARCHAR(255),
+  Author VARCHAR(255),
+  Course VARCHAR(255),
 );
 Update JDBC credentials
 
