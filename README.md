@@ -36,7 +36,7 @@ Book_Servlet_Advanced_Java/
 
 # 🚀 Setup Guide
 Prerequisites
-Java 8+
+Java 17+
 
 Apache Tomcat 9+
 
@@ -87,4 +87,5 @@ http://localhost:8080/Book_Servlet_Advanced_Java/book.html
 🛠️ JDBC Integration: Direct database access using standard JDBC.
 
 🧩 HTML + JSP Views: Simple UI with form validation and feedback.
+
 🧪 Tomcat Deployment: Easily deployable on any servlet container.
